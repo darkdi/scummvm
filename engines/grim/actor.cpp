@@ -1771,7 +1771,7 @@ void Actor::draw() {
 
 		TextObject *textObject = TextObject::getPool().getObject(_sayLineText);
 		if (textObject) {
-			if (p1.x == 1000 || p2.x == -1000 || p2.x == -1000) {
+			if (p1.x == 1000 || p2.x == -1000) {
 				textObject->setX(640 / 2);
 				textObject->setY(463);
 			} else {
